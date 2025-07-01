@@ -127,6 +127,28 @@ const skills = [
   category: "certifications",
 },
  { name: "ML Fundamuntals", icon: <FaBrain size={30} />, category: "all" },
+ {
+  name: "Cybersec.",
+  icon: (
+    <div className="flex items-center gap-2">
+      <img
+        src="/projects/IBM_Cybersecurity.png"
+        alt="Cybersecurity Fundamentals"
+        className="w-[80px] h-[60px]"
+      />
+      <a
+        href="https://www.credly.com/badges/48c0b1e3-356e-4bc0-a1f1-040f55612a65/public_url"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="ml-1 p-1 rounded-full hover:bg-primary/20 transition"
+        title="View Certificate"
+      >
+        <FiExternalLink className="w-5 h-5 text-primary" />
+      </a>
+    </div>
+  ),
+  category: "certifications",
+},
 
 
 
